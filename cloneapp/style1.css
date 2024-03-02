@@ -1,0 +1,155 @@
+*{
+
+ margin: 0%;
+ padding: 0%;
+
+}
+
+
+.main
+{
+
+  background-image: url("assets/image/bg.jpg");
+    height:86vh;
+
+
+}
+nav{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+img{
+  position: relative;
+   margin-top: 24px;
+   height: 43px;
+   font-size:25px
+   z-index:20;
+
+
+}
+
+button
+{
+
+  background-color:rgb(217, 41, 41);
+  color: white;
+  font-size:20px;
+  margin-top:24px;
+  border-radius: 1px solid white;
+  width: 80px;
+  height: 30px;
+
+}
+
+
+button:hover{
+
+  background-color: brown;
+
+
+}
+.singbox{
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+ 
+  min-height: 500px 
+
+}
+h1{
+
+
+  color: white;
+}
+h2{
+
+
+color: white;
+
+}
+.sin1{
+
+position: relative;
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: rgba(0,0,0,0.7);
+min-height: 487px;
+width: 350px;
+
+}
+
+input{
+
+
+  width: 80%;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+  font-size: medium;  
+  text-align: justify;
+  
+}
+
+input:hover{
+
+  border-color: rgb(235, 57, 66);
+
+}
+.last{
+  
+    color: white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  padding: 12px;
+
+}
+.bt2{
+
+ position: relative;
+ background-color: red;
+ color: white;
+ width: 82%;
+   
+}
+
+.footer{
+  background-color:rgba(0, 0, 0, 0.2);
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 24%;
+  background-color: black;
+  color: white;
+  
+}
+
+ .data-item1{
+
+  position: relative;
+  color: white;
+  padding: 22px;
+
+ }
+ .data-item2{
+   
+
+}
+a{
+
+  position: relative;
+  color: white;
+}
